@@ -50,9 +50,11 @@ html, body{
         overflow: hidden;
         background: #ffffff;
         width: 50%;
-        height: 30px;
+        height: 100%;
 
         svg {
+          width: 100%;
+          height: 100%;
           padding: 3px;
         }
 
@@ -65,7 +67,7 @@ html, body{
 
       button {
         background: #7a7a7a;
-        height: 32px;
+        height: 100%;
         margin-left: 1rem;
         border-radius: 5px;
         width: 16%;
@@ -89,7 +91,8 @@ html, body{
       align-items: center;
       padding: 2rem;
       img {
-        width: 70%;
+        object-fit: cover;
+        width: 100%;
         max-width: 100%;
       }
     }
@@ -122,8 +125,7 @@ html, body{
         }
 
         .down-arrow {
-          width: 44px;
-          height: 17px;
+          width: 3%;
         }
       }
     }
@@ -163,7 +165,7 @@ html, body{
     }
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1200px){
     .main-content {
       width: 100%;
       height: 100%;
@@ -172,12 +174,56 @@ html, body{
       }
 
       &_input {
+        height: 60px;
         padding-top: 2rem;
-        div {
-          font-size: large;
-          border-radius: 5px;
-          width: 30%;
+        svg {
+          width: 50px!important;
+          height: 50px!important;
+          padding: 3px;
         }
+
+        input {
+          font-size: 30px;
+          border: 0;
+          padding: 0.5rem 0.5rem 0.5rem 0;
+          flex: 1;
+        }
+        button{
+          font-size: 30px;
+        }
+      }
+      &_examples {
+        font-size: large;
+      }
+      &_banner {
+        padding: 2rem;
+        img {
+          width: 90%;
+          max-width: 100%;
+        }
+      }
+      &_footer {
+        div {
+          width: 20%;
+        }
+
+        .agreement-open {
+          width: 100%;
+          p {
+            font-size: large;
+          }
+          .down-arrow {
+            width: 6%;
+          }
+        }
+      }
+    }
+    .agreement-text {
+      padding: 10px 30px 0 20px!important;
+      font-size: x-large;
+
+      h1 {
+        font-size: 40px!important;
       }
     }
   }
