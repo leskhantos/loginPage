@@ -212,10 +212,13 @@ html, body {
     height: 30px;
     padding-top: 0;
   }
-  .main-content_input svg {
+  .main-content_input div {
+    width: 70%;
+  }
+  .main-content_input div svg {
     display: none;
   }
-  .main-content_input input {
+  .main-content_input div input {
     font-size: 15px;
   }
   .main-content_input button {
@@ -224,6 +227,7 @@ html, body {
   .main-content_examples {
     margin-top: -30px;
     font-size: small;
+    text-decoration: none;
   }
   .main-content_banner {
     margin-top: -1rem;
