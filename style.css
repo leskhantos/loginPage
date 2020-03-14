@@ -226,7 +226,7 @@ html, body {
   }
   .main-content_banner {
     width: 90%;
-    padding: 0;
+    padding-bottom: 3rem;
   }
   .main-content_banner img {
     width: 100%;
