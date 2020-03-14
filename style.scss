@@ -227,6 +227,7 @@ html, body{
 
     &_text {
       font-size: 15px;
+      margin-bottom: -1rem;
     }
     &_input {
       width: 100%;
@@ -248,7 +249,7 @@ html, body{
     }
     &_banner {
       width: 90%;
-      padding-bottom: 3rem;
+      padding-bottom: 4rem;
       img {
         width: 100%;
         max-width: 100%;

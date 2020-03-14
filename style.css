@@ -205,6 +205,7 @@ html, body {
   }
   .main-content_text {
     font-size: 15px;
+    margin-bottom: -1rem;
   }
   .main-content_input {
     width: 100%;
@@ -226,7 +227,7 @@ html, body {
   }
   .main-content_banner {
     width: 90%;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
   }
   .main-content_banner img {
     width: 100%;
