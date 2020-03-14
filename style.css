@@ -204,7 +204,7 @@ html, body {
     align-items: center;
   }
   .main-content_text {
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: -1rem;
   }
   .main-content_input {
@@ -226,6 +226,7 @@ html, body {
     font-size: small;
   }
   .main-content_banner {
+    margin-top: -1rem;
     width: 90%;
     padding-bottom: 4rem;
   }
